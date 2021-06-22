@@ -19,21 +19,25 @@ namespace WinFormChess
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            string s;
 
-            s = "♜♞♝♛♚♝♞♜";
-            s = s + System.Environment.NewLine;
-            s = s + "♙♙♙♙♙♙♙♙";
-            s = s + System.Environment.NewLine;
-            s = s + System.Environment.NewLine;
-            s = s + System.Environment.NewLine;
-            s = s + System.Environment.NewLine;
-            s = s + "♟♟♟♟♟♟♟♟";
-            s = s + System.Environment.NewLine;
-            s = s + "♖♘♗♔♕♗♘♖";
-            richTextBoxBoard.Text = s;
+            // Czarne figury:
+            // ♜ - wieza
+            // ♞ - skoczek
+            // ♝ - goniec
+            // ♛ - hetman
+            // ♚ - krol
+            // ♟ - pion
 
+            // Biale figury:
+            // ♖ - wieza
+            // ♘ - skoczek
+            // ♗ - goniec
+            // ♕ - hetman
+            // ♔ - krol
+            // ♙ - pion
 
+            string s = "";
+            richTextBoxGame.Text = s;
             
         }
     }
